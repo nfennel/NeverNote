@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8008A38B191BC5C10071B32D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8008A38A191BC5C10071B32D /* Default-568h@2x.png */; };
 		805898751916641F00352439 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805898741916641F00352439 /* Foundation.framework */; };
 		805898771916641F00352439 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805898761916641F00352439 /* CoreGraphics.framework */; };
 		805898791916641F00352439 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805898781916641F00352439 /* UIKit.framework */; };
@@ -22,6 +23,22 @@
 		805898961916642000352439 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8058987A1916641F00352439 /* CoreData.framework */; };
 		8058989E1916642000352439 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8058989C1916642000352439 /* InfoPlist.strings */; };
 		805898A01916642000352439 /* NeverNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8058989F1916642000352439 /* NeverNoteTests.m */; };
+		805898AB1916643400352439 /* NNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 805898AA1916643400352439 /* NNViewController.m */; };
+		805898B21919A21400352439 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805898B11919A21400352439 /* CoreMotion.framework */; };
+		80B9E221191AF91B008B377C /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E220191AF91B008B377C /* icon.icns */; };
+		80B9E22A191AFC4A008B377C /* Icon 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E224191AFC4A008B377C /* Icon 29.png */; };
+		80B9E22B191AFC4A008B377C /* Icon 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E225191AFC4A008B377C /* Icon 40.png */; };
+		80B9E22C191AFC4A008B377C /* Icon 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E226191AFC4A008B377C /* Icon 58.png */; };
+		80B9E22D191AFC4A008B377C /* Icon 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E227191AFC4A008B377C /* Icon 80.png */; };
+		80B9E22E191AFC4A008B377C /* Icon 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E228191AFC4A008B377C /* Icon 120.png */; };
+		80B9E22F191AFC4A008B377C /* Icon 152.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E229191AFC4A008B377C /* Icon 152.png */; };
+		80B9E236191AFDA1008B377C /* Launch Screen iPad Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E230191AFDA1008B377C /* Launch Screen iPad Landscape.png */; };
+		80B9E237191AFDA1008B377C /* Launch Screen iPad Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E231191AFDA1008B377C /* Launch Screen iPad Landscape@2x.png */; };
+		80B9E238191AFDA1008B377C /* Launch Screen iPad Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E232191AFDA1008B377C /* Launch Screen iPad Portrait.png */; };
+		80B9E239191AFDA1008B377C /* Launch Screen iPad Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E233191AFDA1008B377C /* Launch Screen iPad Portrait@2x.png */; };
+		80B9E23A191AFDA1008B377C /* Launch Screen iPhone Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E234191AFDA1008B377C /* Launch Screen iPhone Portrait.png */; };
+		80B9E23B191AFDA1008B377C /* Launch Screen iPhone Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E235191AFDA1008B377C /* Launch Screen iPhone Portrait@2x.png */; };
+		80B9E23D191AFDF8008B377C /* Launch Screen iPhone Portrait 4-inch.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B9E23C191AFDF8008B377C /* Launch Screen iPhone Portrait 4-inch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8008A38A191BC5C10071B32D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		805898711916641F00352439 /* NeverNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		805898741916641F00352439 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		805898761916641F00352439 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +71,23 @@
 		8058989B1916642000352439 /* NeverNoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeverNoteTests-Info.plist"; sourceTree = "<group>"; };
 		8058989D1916642000352439 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8058989F1916642000352439 /* NeverNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeverNoteTests.m; sourceTree = "<group>"; };
+		805898A91916643400352439 /* NNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNViewController.h; sourceTree = "<group>"; };
+		805898AA1916643400352439 /* NNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNViewController.m; sourceTree = "<group>"; };
+		805898B11919A21400352439 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		80B9E220191AF91B008B377C /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		80B9E224191AFC4A008B377C /* Icon 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon 29.png"; sourceTree = "<group>"; };
+		80B9E225191AFC4A008B377C /* Icon 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon 40.png"; sourceTree = "<group>"; };
+		80B9E226191AFC4A008B377C /* Icon 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon 58.png"; sourceTree = "<group>"; };
+		80B9E227191AFC4A008B377C /* Icon 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon 80.png"; sourceTree = "<group>"; };
+		80B9E228191AFC4A008B377C /* Icon 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon 120.png"; sourceTree = "<group>"; };
+		80B9E229191AFC4A008B377C /* Icon 152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon 152.png"; sourceTree = "<group>"; };
+		80B9E230191AFDA1008B377C /* Launch Screen iPad Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch Screen iPad Landscape.png"; sourceTree = "<group>"; };
+		80B9E231191AFDA1008B377C /* Launch Screen iPad Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch Screen iPad Landscape@2x.png"; sourceTree = "<group>"; };
+		80B9E232191AFDA1008B377C /* Launch Screen iPad Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch Screen iPad Portrait.png"; sourceTree = "<group>"; };
+		80B9E233191AFDA1008B377C /* Launch Screen iPad Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch Screen iPad Portrait@2x.png"; sourceTree = "<group>"; };
+		80B9E234191AFDA1008B377C /* Launch Screen iPhone Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch Screen iPhone Portrait.png"; sourceTree = "<group>"; };
+		80B9E235191AFDA1008B377C /* Launch Screen iPhone Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch Screen iPhone Portrait@2x.png"; sourceTree = "<group>"; };
+		80B9E23C191AFDF8008B377C /* Launch Screen iPhone Portrait 4-inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch Screen iPhone Portrait 4-inch.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805898B21919A21400352439 /* CoreMotion.framework in Frameworks */,
 				805898771916641F00352439 /* CoreGraphics.framework in Frameworks */,
 				8058987B1916641F00352439 /* CoreData.framework in Frameworks */,
 				805898791916641F00352439 /* UIKit.framework in Frameworks */,
@@ -84,6 +120,7 @@
 		805898681916641F00352439 = {
 			isa = PBXGroup;
 			children = (
+				8008A38A191BC5C10071B32D /* Default-568h@2x.png */,
 				8058987C1916641F00352439 /* NeverNote */,
 				805898991916642000352439 /* NeverNoteTests */,
 				805898731916641F00352439 /* Frameworks */,
@@ -103,6 +140,7 @@
 		805898731916641F00352439 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				805898B11919A21400352439 /* CoreMotion.framework */,
 				805898741916641F00352439 /* Foundation.framework */,
 				805898761916641F00352439 /* CoreGraphics.framework */,
 				805898781916641F00352439 /* UIKit.framework */,
@@ -117,6 +155,8 @@
 			children = (
 				805898851916641F00352439 /* NNAppDelegate.h */,
 				805898861916641F00352439 /* NNAppDelegate.m */,
+				805898A91916643400352439 /* NNViewController.h */,
+				805898AA1916643400352439 /* NNViewController.m */,
 				8058988B1916641F00352439 /* Images.xcassets */,
 				805898881916641F00352439 /* NeverNote.xcdatamodeld */,
 				8058987D1916641F00352439 /* Supporting Files */,
@@ -127,6 +167,7 @@
 		8058987D1916641F00352439 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80B9E211191AF7C9008B377C /* Images */,
 				8058987E1916641F00352439 /* NeverNote-Info.plist */,
 				8058987F1916641F00352439 /* InfoPlist.strings */,
 				805898821916641F00352439 /* main.m */,
@@ -151,6 +192,43 @@
 				8058989C1916642000352439 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80B9E211191AF7C9008B377C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				80B9E21F191AF913008B377C /* Icon */,
+				80B9E212191AF7CF008B377C /* Launch Images */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		80B9E212191AF7CF008B377C /* Launch Images */ = {
+			isa = PBXGroup;
+			children = (
+				80B9E230191AFDA1008B377C /* Launch Screen iPad Landscape.png */,
+				80B9E231191AFDA1008B377C /* Launch Screen iPad Landscape@2x.png */,
+				80B9E232191AFDA1008B377C /* Launch Screen iPad Portrait.png */,
+				80B9E233191AFDA1008B377C /* Launch Screen iPad Portrait@2x.png */,
+				80B9E234191AFDA1008B377C /* Launch Screen iPhone Portrait.png */,
+				80B9E235191AFDA1008B377C /* Launch Screen iPhone Portrait@2x.png */,
+				80B9E23C191AFDF8008B377C /* Launch Screen iPhone Portrait 4-inch.png */,
+				80B9E224191AFC4A008B377C /* Icon 29.png */,
+				80B9E225191AFC4A008B377C /* Icon 40.png */,
+				80B9E226191AFC4A008B377C /* Icon 58.png */,
+				80B9E227191AFC4A008B377C /* Icon 80.png */,
+				80B9E228191AFC4A008B377C /* Icon 120.png */,
+				80B9E229191AFC4A008B377C /* Icon 152.png */,
+			);
+			name = "Launch Images";
+			sourceTree = "<group>";
+		};
+		80B9E21F191AF913008B377C /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				80B9E220191AF91B008B377C /* icon.icns */,
+			);
+			name = Icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +308,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				805898811916641F00352439 /* InfoPlist.strings in Resources */,
+				80B9E23D191AFDF8008B377C /* Launch Screen iPhone Portrait 4-inch.png in Resources */,
+				80B9E23A191AFDA1008B377C /* Launch Screen iPhone Portrait.png in Resources */,
+				80B9E22F191AFC4A008B377C /* Icon 152.png in Resources */,
+				80B9E236191AFDA1008B377C /* Launch Screen iPad Landscape.png in Resources */,
+				80B9E22B191AFC4A008B377C /* Icon 40.png in Resources */,
+				80B9E239191AFDA1008B377C /* Launch Screen iPad Portrait@2x.png in Resources */,
+				80B9E22C191AFC4A008B377C /* Icon 58.png in Resources */,
+				8008A38B191BC5C10071B32D /* Default-568h@2x.png in Resources */,
+				80B9E22E191AFC4A008B377C /* Icon 120.png in Resources */,
+				80B9E237191AFDA1008B377C /* Launch Screen iPad Landscape@2x.png in Resources */,
 				8058988C1916641F00352439 /* Images.xcassets in Resources */,
+				80B9E238191AFDA1008B377C /* Launch Screen iPad Portrait.png in Resources */,
+				80B9E22A191AFC4A008B377C /* Icon 29.png in Resources */,
+				80B9E22D191AFC4A008B377C /* Icon 80.png in Resources */,
+				80B9E23B191AFDA1008B377C /* Launch Screen iPhone Portrait@2x.png in Resources */,
+				80B9E221191AF91B008B377C /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805898AB1916643400352439 /* NNViewController.m in Sources */,
 				8058988A1916641F00352439 /* NeverNote.xcdatamodeld in Sources */,
 				805898871916641F00352439 /* NNAppDelegate.m in Sources */,
 				805898831916641F00352439 /* main.m in Sources */,
@@ -368,8 +462,6 @@
 		805898A41916642000352439 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NeverNote/NeverNote-Prefix.pch";
 				INFOPLIST_FILE = "NeverNote/NeverNote-Info.plist";
@@ -381,8 +473,6 @@
 		805898A51916642000352439 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NeverNote/NeverNote-Prefix.pch";
 				INFOPLIST_FILE = "NeverNote/NeverNote-Info.plist";
@@ -450,6 +540,7 @@
 				805898A51916642000352439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		805898A61916642000352439 /* Build configuration list for PBXNativeTarget "NeverNoteTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +549,7 @@
 				805898A81916642000352439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
